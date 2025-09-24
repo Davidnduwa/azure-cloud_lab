@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Azure Landing Zone • AZ‑900 Lab</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+// Tailwind config (optional brand colors)
+tailwind.config = { theme: { extend: { colors: { brand: { 500: '#6366f1', 600: '#4f46e5' }, skybrand: { 500: '#0ea5e9' } } } } };
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body class="min-h-screen bg-gradient-to-b from-white via-slate-50 to-white text-slate-900 [font-family:Inter,ui-sans-serif] selection:bg-indigo-200/50">
+<!-- NAV -->
+<header class="sticky top-0 z-20 border-b bg-white/70 backdrop-blur">
+<div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+<div class="flex items-center gap-3">
+<div class="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-brand-600 to-skybrand-500 text-white shadow-md">
+<!-- simple cloud icon -->
+<svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 17.5A4.5 4.5 0 0 0 16 13h-1a7 7 0 1 0-1 7h7a3 3 0 0 0 0-6"/></svg>
+</div>
+<div>
+<p class="text-sm font-semibold leading-4">Landing Zone</p>
+<p class="text-xs text-slate-500">AZ‑900 Lab • Flask + Tailwind</p>
+</div>
+</div>
+<nav class="hidden gap-6 sm:flex text-sm text-slate-600">
+<a href="#features" class="hover:text-slate-900">Features</a>
+<a href="#arch" class="hover:text-slate-900">Architecture</a>
+<a href="#deploy" class="hover:text-slate-900">Deploy</a>
+</nav>
+<div class="flex items-center gap-2">
+<a href="#deploy" class="rounded-xl border px-3 py-1.5 text-sm hover:bg-slate-50">Docs</a>
+<a href="#deploy" class="rounded-xl bg-slate-900 px-3 py-1.5 text-sm text-white hover:bg-slate-800">Deploy</a>
+</div>
+</div>
+</header>
+
+
+<!-- HERO -->
+<section class="relative overflow-hidden">
+<!-- animated gradient blob -->
+<div class="pointer-events-none absolute inset-0 -z-10">
+<div class="hero-blob"></div>
+</div>
+
+
+<div class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-10 px-4 py-16 md:grid-cols-2 md:py-24">
+<div>
+<h1 class="text-4xl font-extrabold tracking-tight md:text-5xl">
+Azure <span class="bg-gradient-to-r from-brand-600 to-skybrand-500 bg-clip-text text-transparent">Landing Zone</span>
+</h1>
+<p class="mt-4 max-w-prose text-base leading-relaxed text-slate-600">
+</body>
+</html>
